@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+     <script src="cal.js"></script>
+    <head>
+        <meta charset="utf-8">
+        <title>Saida em JavaScript</title>
+        <link rel="stylesheet" type="text/css" href="cal.css">
+    </head>
+    <body>
+
+    	
+		<center>
+		 <fieldset class="c">
+		    <form>
+		      <h1>Calculadora</h1>
+		       <div id="resultado"><br /><input type="text" size="10" disabled id="result"></div><br />
+		      <input class="t" type="button" id="um" value="1" onclick="valor(1)">
+		      <input class="t" type="button" id="dois"  value="2" onclick="valor(2)">
+		      <input class="t" type="button" id="tres" value="3" onclick="valor(3)">
+		      <input class="t cor" type="button" id="multiplicar" value="x" onclick="valor('*')"><br />
+		      <input class="t" type="button" id="quarto" value="4" onclick="valor(4)">
+		      <input class="t" type="button" id="cinco" value="5" onclick="valor(5)">
+		      <input class="t" type="button" id="seis" value="6" onclick="valor(6)">
+		      <input class="t cor" type="button" id="dividir" value="/" onclick="valor('/')"><br />
+		      <input class="t" type="button" id="sete" value="7" onclick="valor(7)">
+		      <input class="t" type="button" id="oito" value="8" onclick="valor(8)">
+		      <input class="t" type="button" id="nove" value="9" onclick="valor(9)">
+		      <input class="t cor" type="button" id="mais" value="+" onclick="valor('+')"><br /> 
+		      <input class="t" type="button" id="zero" value="0" onclick="valor(0)">
+		      <input class="t" type="reset" value="C">
+		      <input class="t cor" type="button" id="porcento" value="%" onclick="calcular()">
+		      <input class="t cor" type="button" id="menos" value="-" onclick="valor('-')"> 
+		      <input class="i" type="button" id="igual" value="=" onclick="calcular()"> 
+		      <input class="t cor" type="button" id="ponto" value="." onclick="valor('.')">
+		      <input class="t cor" type="button" id="virgular" value="," onclick="valor(',')">
+		    </form>  
+		  </fieldset>   
+		</center>         
+ 	</body>
+</html>

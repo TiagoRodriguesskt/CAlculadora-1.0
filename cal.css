@@ -1,0 +1,46 @@
+body {
+	background-image: url(number.jpg);
+	/*background-repeat: no-repeat;*/
+
+}
+
+h1 {
+	font-family: cursive;
+	color: white;
+}
+
+input {
+	box-shadow: 5px 5px 0 black;
+   /*-webkit-box-shadow: 5px 5px 0 #333;
+   -moz-box-shadow: 5px 5px 0 #333;*/
+	text-align: center;
+	font-family: fantasy;
+	color: #000000;
+	font-size: 32px;
+	border-radius: 10px;
+}
+
+#resultado {
+	font-family: cursive;
+	font-size: 32pt;
+	color: black;
+}
+
+.t {
+	width: 50px;
+	height: 40px;
+}
+
+.c {
+	padding: auto; 
+	background-color: #B5B5B5;
+	width: 20%;
+	border-radius: 6%;
+}
+.i {
+	width: 100px;
+}
+
+.cor {
+	background-color: orange;
+}
